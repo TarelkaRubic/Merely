@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    margin: -10px -10px;
+    overflow-x: hidden;
+}
+.str-1{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    height: auto;
+    margin: auto;
+    background: #121212;
+}
+
+header{}
+
+.header-block{
+    position: relative;
+    width: 100%;
+    animation-name: head;
+}
+
+.nametag-block{
+    position: relative;
+    height: 90px;
+    margin: 47px 70px;
+}
+#nametag-logo{
+    position: relative;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+#nametag-logo-2{
+    position: relative;
+    margin: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #8487FF;
+}
+#nametag-slogan{
+    position: absolute;
+    margin: 62px -307px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+
+#triangle-1{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    transform: rotate(-62.26deg);
+}
+
+#triangle-2{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    transform: rotate(-62.26deg);
+}
+
+#triangle-3{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    transform: rotate(-41.18deg);
+}
+
+
+#triangle-4{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    transform: rotate(51.11deg);
+}
+
+.name-logo{
+    position: relative;
+    width: 750px;
+    height: 380px;
+    margin: 290px -470px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+#logo-text-1{
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 134px;
+    color: #8487FF;
+}
+#logo-text-2{
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 134px;
+    color: #FFFFFF;
+}
+#logo-text-3{
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 134px;
+    color: #FFFFFF;
+}
+
+#linear-logo{
+    position: absolute;
+    margin: -90px 265px;
+    width: 344px;
+    height: 3px;
+    background: #FFFFFF;
+}
+
+#logo-slogan{
+    position: absolute;
+    margin: 54px 45px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer-block-osn{
+    position: relative;
+    margin-top: 907px;
+    margin-left: -1200px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#fot-lg-1{
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    top: -30px;
+    color: #8487FF;
+}
+#fot-lg-2, #fot-lg-3{
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    top: -30px;
+    color: #FFFFFF;
+}
+
+#portfolio-but{
+    position: absolute;
+    top: -5%;
+    margin-left: 1516px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#portfolio-but:hover{
+    transition: 0.3s linear;
+    color: #8487FF;
+    cursor: pointer;
+}
+
+.nametag-block:hover{
+    cursor: pointer;
+}
+
+
+
+/*О компании*/
+
+
+#about_company{
+    position: relative;
+    top: 27px;
+}
+
+#aboutus_big_font {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 96px;
+    top: 49px;
+    right: 210px;
+
+    color: rgba(0, 0, 0, 0.09);
+}
+
+#aboutus_firstlogo {
+    position: absolute;
+    width: 619px;
+    height: 90px;
+
+    left: 200px;
+    top: 66px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#aboutus_firstlogo_text {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+#aboutus_firstlogo_line{
+    position: absolute;
+    width: 155px;
+    height: 4px;
+    left: 0;
+    top: 50%;
+
+    background-color: black;
+}
+
+#aboutus_text_1 {
+    position: absolute;
+    top: 217px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+
+    width: 1287px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: justify;
+}
+
+#aboutus_secondlogo {
+    position: absolute;
+    width: 418px;
+    height: 25px;
+
+    top: 381px;
+    left: 200px;
+}
+
+#aboutus_secondlogo_line {
+    position: absolute;
+    width: 90px;
+    height: 3px;
+
+    left: 0;
+    top: 50%;
+
+    background-color: black;
+}
+
+#aboutus_secondlogo_text {
+    position: absolute;
+    
+    right: 0;
+
+    color: black;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#aboutus_text_2 {
+    position: absolute;
+    top: 415px;
+    left: 330px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+
+    width: 651px;
+}
+
+#aboutus_big_font_2 {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 160px;
+    top: 420px;
+    left: 450px;
+
+    color: rgba(0, 0, 0, 0.09);
+}
+
+#aboutus_bisnesstasks {
+    position: absolute;
+    width: 1054px;
+
+    top: 616px;
+
+    display: flex;
+    flex-direction: row;
+
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+}
+
+.bisnesstask {
+    width: 242px;
+    height: 200px;
+
+    margin-right: 10px;
+    padding-left: 8px;
+    border-left: solid #D9D9D9 1px;
+}
+
+.bisnesstask_line {
+    position: relative;
+    width: 49px;
+    height: 2px;
+
+    margin-top: 28px;
+
+    background-color: black;
+}
+
+.bisnesstask_number {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: -10px;
+    width: 40px;
+    height: 25px;
+    color: #000000;
+
+    transform: rotate(-90deg)
+}
+
+.bisnesstask_text{
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+    margin-top: 50px;
+    line-height: 143.9%;
+}
+
+#aboutus_thirdlogo {
+    position: absolute;
+    width: 340px;
+    height: 25px;
+
+    top: 960px;
+    left: 200px;
+}
+
+#aboutus_thirdlogo_line {
+    position: absolute;
+    width: 90px;
+    height: 3px;
+
+    left: 0;
+    top: 50%;
+
+    background-color: black;
+}
+
+#aboutus_thirdlogo_text {
+    position: absolute;
+    
+    right: 0;
+
+    color: black;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#aboutus_text_3 {
+    position: absolute;
+    top: 1025px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+
+    width: 1287px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: justify;
+}
+
+#aboutus_fourthlogo {
+    position: absolute;
+    width: 440px;
+    height: 25px;
+
+    top: 1202px;
+    left: 200px;
+}
+
+#aboutus_fourthlogo_line {
+    position: absolute;
+    width: 90px;
+    height: 3px;
+
+    left: 0;
+    top: 50%;
+
+    background-color: black;
+}
+
+#aboutus_fourthlogo_text {
+    position: absolute;
+    
+    right: 0;
+
+    color: black;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#aboutus_text_4 {
+    position: absolute;
+    top: 1267px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+
+    width: 1287px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: justify;
+}
+
+#aboutus_fifthlogo {
+    position: absolute;
+    width: 440px;
+    height: 25px;
+
+    top: 1406px;
+    left: 200px;
+}
+
+#aboutus_fifthlogo_line {
+    position: absolute;
+    width: 90px;
+    height: 3px;
+
+    left: 0;
+    top: 50%;
+
+    background-color: black;
+}
+
+#aboutus_fifthlogo_text {
+    position: absolute;
+    
+    right: 0;
+
+    color: black;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#aboutus_text_5 {
+    position: absolute;
+    top: 1457px;
+    left: 330px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+
+    width: 934px;
+}
+
+#aboutus_big_font_3 {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 160px;
+    top: 1490px;
+    left: 450px;
+
+    color: rgba(0, 0, 0, 0.09);
+}
+
+#aboutus_text_6 {
+    position: absolute;
+    top: 1671px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+
+    width: 1287px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: justify;
+}
+
+
+/*STR - 2*/
+
+.str-2{
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    flex-direction: row;
+    background: #121212;
+}
+
+#linear-1{
+    position: absolute;
+    margin: 0 378px;
+    width: 3px;
+    height: 1080px;
+    background: #404040;
+    z-index: 1;
+}
+
+#linear-2{
+    position: absolute;
+    margin: 0px 1498px;
+    width: 3px;
+    height: 1080px;
+    background: #404040;
+    z-index: 1;
+}
+
+.block-anim{
+    position: relative;
+    z-index: 2;
+    min-width: 340px;
+    height: 1080px;
+    margin: 0px 762px;
+    border-width: 0px 3px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #404040;
+    background: #121212;
+    box-shadow: 0px 0px 33px 15px #000000;
+}
+
+#fut-tx-1{
+    position: absolute;
+    z-index: 1;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 230px;
+    line-height: 239px;
+    text-transform: uppercase;
+    margin: 432px 460px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+}
+
+#fut-tx-2{
+    position: absolute;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 230px;
+    line-height: 239px;
+    text-transform: uppercase;
+    margin: 432px 10px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+}
+
+#fut-tx-3{
+    position: absolute;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 230px;
+    line-height: 239px;
+    text-transform: uppercase;
+    margin: 432px 1114px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+}
+
+#slog-fut{
+    position: absolute;
+    width: 218px;
+    margin: 818px 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#triangle-wh-1{
+    position: relative;
+    margin: 36px 67.1%;
+    z-index: 1;
+    transform: rotate(0deg);
+}
+
+#triangle-wh-2{
+    position: relative;
+    margin: 650px -20px;
+    transform: rotate(-180.26deg);
+}
